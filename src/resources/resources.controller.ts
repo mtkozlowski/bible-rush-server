@@ -8,21 +8,20 @@ import {
   Put,
 } from '@nestjs/common';
 import { ResourcesService } from './resources.service';
-import { Resource } from '../resource';
-import { Resources } from '../resources';
+import { Resource } from './schemas/resource.schema';
 
 @Controller('resources')
 export class ResourcesController {
   constructor(private readonly resourceService: ResourcesService) {}
 
   @Get()
-  async index(): Promise<Resources> {
+  async index(): Promise<Resource[]> {
     return this.resourceService.findAll();
   }
 
-  @Get(':id')
-  async find(@Param('id') id: number): Promise<Resource> {
-    return this.resourceService.find(id);
+  @Get(':siglum')
+  async find(@Param('siglum') siglum: string): Promise<Resource> {
+    return this.resourceService.find(siglum);
   }
 
   @Post()
