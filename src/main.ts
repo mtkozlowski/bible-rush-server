@@ -9,6 +9,7 @@ async function bootstrap() {
   console.log(process.env.MONGODB_URI);
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(new ValidationPipe());
+  app.enableCors();
   await app.listen(process.env.PORT);
 }
 bootstrap();
