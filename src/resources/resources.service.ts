@@ -41,7 +41,7 @@ export class ResourcesService {
 
   async delete(id: number) {
     const resource = await this.resourceModel.deleteOne({ id }).exec();
-    if (resource.deleteCount === 0)
+    if (resource.deletedCount === 0)
       throw new HttpException('Resource not found.', 404);
 
     return resource;
