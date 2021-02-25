@@ -1,5 +1,9 @@
 import { HttpException, Injectable } from '@nestjs/common';
-import { Resource, ResourceDocument } from './schemas/resource.schema';
+import {
+  Resource,
+  ResourceDocument,
+  ResourceGto,
+} from './schemas/resource.schema';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 
@@ -18,16 +22,23 @@ export class ResourcesService {
     return resources;
   }
 
-  async create(newResource: Resource) {
-    const resource = new this.resourceModel(newResource);
-    return resource.save();
-  }
-
-  async find(siglum: string): Promise<Resource> {
+  async findBySiglum(siglum: string): Promise<Resource> {
     const resource = await this.resourceModel.findOne({ sigla: siglum }).exec();
-    if (!resource) throw new HttpException('Resource not found.', 404);
+    if (!resource) throw new HttpException('Resource not found!!!', 404);
 
     return resource;
+  }
+
+  async findById(id: string): Promise<Resource> {
+    const resource = await this.resourceModel.findOne({ id: id }).exec();
+    if (!resource) throw new HttpException('Resource not found!!!', 404);
+
+    return resource;
+  }
+
+  async create(newResource: ResourceGto) {
+    const resource = new this.resourceModel(newResource);
+    return resource.save();
   }
 
   async update(newResource: Resource) {

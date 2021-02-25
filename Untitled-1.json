@@ -1,0 +1,56 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "fcPtKa3aBmIYRLoZrcbw7R7zll4",
+  "nextPageToken": "CAEQAA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "j9qRbxjAHpmKOZIeoCcVD8tAlME",
+      "id": "UExSU0dFWkt1elctNVZXZkdVOEZ1WVROVjFyZDZwNy03Qy4wNzM3OUI5RjJFOEVCRTAx",
+      "snippet": {
+        "publishedAt": "2020-12-16T08:24:48Z",
+        "channelId": "UCLlzlc4XSItHVTcMnrIlv1w",
+        "title": "Chlebak [#1002] 16.12.2020",
+        "description": "#AdamSzustakOP #TomaszNowakOP #Chlebak\n\nCodzienny komentarz do czytań mszalnych prowadzony przez o. Adama Szustaka OP oraz o. Tomasza Nowaka OP.\n_______________________________________ \n\n1. czytanie (Iz 45, 6b-8. 18. 21b-25)\n\n«Ja jestem Pan i nikt poza Mną. Ja czynię światło i stwarzam ciemności, sprawiam pomyślność i stwarzam niedolę. Ja, Pan, czynię to wszystko.\nNiebiosa, wysączcie z góry sprawiedliwość i niech obłoki z deszczem ją wyleją! Niechaj ziemia się otworzy, niech zbawienie wyda owoc i razem wzejdzie sprawiedliwość!\nJa, Pan, jestem tego Stwórcą». Albowiem tak mówi Pan, Stworzyciel nieba, on Bogiem, który ukształtował i wykonał ziemię, który ją mocno osadził, który nie stworzył jej bezładną, lecz przysposobił na mieszkanie: «Ja jestem Pan, i nie ma innego. Czyż nie Ja jestem Pan, a nie ma innego Boga oprócz Mnie? Bóg sprawiedliwy i zbawiający nie istnieje poza Mną. Nawróćcie się do Mnie, by się zbawić, wszystkie krańce świata, bo Ja jestem Bogiem, i nikt inny!\nPrzysięgam na siebie samego, z moich ust wychodzi sprawiedliwość, słowo nieodwołalne. Tak, przede Mną się zegnie wszelkie kolano, wszelki język na Mnie przysięgać będzie, mówiąc: „Jedynie u Pana jest sprawiedliwość i moc”. Do Niego przyjdą zawstydzeni wszyscy, którzy się na Niego zżymali. W Panu uzyska swe prawo i chwały dostąpi całe plemię Izraela».\n\nEwangelia (Łk 7, 18b-23)\n\nJan przywołał do siebie dwóch spośród swoich uczniów i posłał ich do Jezusa z zapytaniem: «Czy Ty jesteś Tym, który ma przyjść, czy też innego mamy oczekiwać?»\nGdy ludzie ci zjawili się u Jezusa, rzekli: «Jan Chrzciciel przysyła nas do Ciebie z zapytaniem: Czy Ty jesteś Tym, który ma przyjść, czy też innego mamy oczekiwać?»\nW tym właśnie czasie Jezus wielu uzdrowił z chorób, dolegliwości i uwolnił od złych duchów; także wielu niewidomych obdarzył wzrokiem. Odpowiedział im więc: «Idźcie i donieście Janowi to, co widzieliście i słyszeliście: Niewidomi wzrok odzyskują, chromi chodzą, trędowaci zostają oczyszczeni i głusi słyszą; umarli zmartwychwstają, ubogim głosi się Ewangelię. A błogosławiony jest ten, kto nie zwątpi we Mnie».\n\n_______________________________________\nZdjęcia i montaż: Piotr Hołowienko (http://www.thisday.pl)\nZdjęcia czołówka: Marcin Jończyk https://www.youtube.com/channel/UCoKF0ZJRUPhasLJ-H701S8g  \n________________________________________\nZapraszamy do subskrybowania kanału na YT:\nhttp://bit.ly/dominikanieYT\n\nMożna nas również znaleźć na Facebooku: \nhttp://bit.ly/dominikanieFB\n\nTu nas można wesprzeć: https://patronite.pl/langustanapalmie\n_______________________________________",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bYB0-TAy2JI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bYB0-TAy2JI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bYB0-TAy2JI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bYB0-TAy2JI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bYB0-TAy2JI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dominikanie.pl",
+        "playlistId": "PLRSGEZKuzW-5VWfGU8FuYTNV1rd6p7-7C",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bYB0-TAy2JI"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1000,
+    "resultsPerPage": 1
+  }
+}
