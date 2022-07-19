@@ -36,14 +36,7 @@ export class Resource {
   @IsString()
   readonly channelId: string;
 
-  constructor(
-    title: string,
-    url: string,
-    sigla: string[],
-    description = '',
-    thumbnailUrlBase = '',
-    channelId = '',
-  ) {
+  constructor(title: string, url: string, sigla: string[], description = '', thumbnailUrlBase = '', channelId = '') {
     this.id = Guid.create().toString();
     this.title = title;
     this.url = url;

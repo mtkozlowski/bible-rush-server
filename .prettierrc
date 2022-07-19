@@ -1,5 +1,15 @@
 {
   "singleQuote": true,
   "trailingComma": "all",
-  "semi": true
+  "tabWidth": 2,
+  "semi": true,
+  "endOfLine": "crlf",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }

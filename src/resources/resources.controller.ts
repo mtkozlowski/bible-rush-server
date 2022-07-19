@@ -41,7 +41,7 @@ export class ResourcesController {
   }
 
   @Post('addYoutubeVideo/')
-  async createFromYoutube(@Body(videoUrl: string) videoUrl: string) {
+  async createFromYoutube(@Body('videoUrl') videoUrl: string) {
     const regex = /v=(\w+)\&/g;
     const result = regex.test(videoUrl) ? RegExp.$1 : '';
 
